@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+</head>
+
+<body style="text-align:center;">
+  <style>
+    h1{
+      font-size: 30px;
+      color: black;
+      text-transform: uppercase;
+      font-weight: 300;
+      text-align: center;
+      margin-bottom: 22px;
+    }
+    body {
+      padding:1.5em;
+      background: black;
+    }
+    table{
+      border-collapse: collapse;  /*이중선 제거*/
+      width: 70%;
+      table-layout: fixed;
+
+      background-image: linear-gradient(to right, #20E2D7 0%, #F9FEA5 100%);
+    }
+    th{
+        padding: 30px 20px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        color: black;
+        text-transform: uppercase;
+      }
+    td{
+      padding: 16px;
+      text-align: center;
+      vertical-align:middle;
+      font-weight: 300;
+      font-size: 15px;
+      color: black;
+      border-bottom: solid 1px rgba(255,255,255,255);
+    }
+    body{
+      font-family: 'Roboto', sans-serif;
+      background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    }
+    section{
+      margin: 30px;
+    }
+  </style>
+
+
+<section>
+  <h1>취미활동</h1>
+  <div class="tbl-header">
+    <table align="center" cellpadding="0" cellspacing="0" border="0">
+      <th>취미</th>
+      <th>장소</th>
+      <th>일정</th>
+      <th>유의사항</th>
+      <th>참가</th>
+
+
+      <tr style="background-color:WhiteSmoke;">  <!-- 1번째 취미 -->
+        <td>보드&자전거 타기</td>
+        <td>한강</td>
+        <td>9/8 (19:00 ~ 20:00)</td>
+        <td>개인 장비 없는 분들은 대여 가능</td>
+        <td><button type="button" onclick="new_window();">참가</button></td>
+        <script>
+        function new_window() {
+          window.open(
+            "toge.html",
+            "toge",
+            "width=400, height=300, top=50, left=50"
+          );
+        }
+        </script>
+      </tr>
+
+      <tr style="background-color:WhiteSmoke;">  <!-- 2번째 취미 -->
+        <td>바다 낚시</td>
+        <td>인천</td>
+        <td>9/3, 24 (11:00 ~ 17:00)</td>
+        <td>낚시 후에 저녁도 같이 먹어요~</td>
+        <td><button type="button" onclick="new_window();">참가</button></td>
+        <script>
+        function new_window() {
+          window.open(
+            "toge.html",
+            "toge",
+            "width=400, height=300, top=50, left=50"
+          );
+        }
+        </script>
+      </tr>
+
+      <tr style="background-color:WhiteSmoke;">   <!-- 3번째 취미 -->
+        <td>뮤지컬 시카고 관람</td>
+        <td>대전 예술의전당 아트홀</td>
+        <td>9/25 (17:30 ~ )</td>
+        <td>최재림 좋아하시는 분들 같이 뮤지컬 봐요!</td>
+        <td><button type="button" onclick="new_window();">참가</button></td>
+        <script>
+        function new_window() {
+          window.open(
+            "toge.html",
+            "toge",
+            "width=400, height=300, top=50, left=50"
+          );
+        }
+        </script>      </tr>
+
+      <tr style="background-color:WhiteSmoke;">  <!-- 4번째 취미 -->
+        <td>야구 직관</td>
+        <td>서울 잠실 야구장</td>
+        <td>9/10,11 (14:00 ~ )</td>
+        <td>두산베어스 좋아하는 팬분들 같이 야구 응원합시다!</td>
+        <td><button type="button" onclick="new_window();">참가</button></td>
+        <script>
+        function new_window() {
+          window.open(
+            "toge.html",
+            "toge",
+            "width=400, height=300, top=50, left=50"
+          );
+        }
+        </script>
+      </tr>
+
+      <tr style="background-color:WhiteSmoke;">  <!-- 5번째 취미 -->
+        <td>영화 관람(공조2)</td>
+        <td>창원</td>
+        <td>9/7 (19:00 ~ )</td>
+        <td>영화광들 모여라~</td>
+        <td><button type="button" onclick="new_window();">참가</button></td>
+        <script>
+        function new_window() {
+          window.open(
+            "toge.html",
+            "toge",
+            "width=400, height=300, top=50, left=50"
+          );
+        }
+        </script>
+      </tr>
+
+    </table>
+  </div>
+</section>
+
+  <h1>
+    <style>
+      button{
+        width: 110px;
+        height: 40px;
+        color: #fff;
+        background: #004fff;
+        font-size:16px;
+        border:none;
+        border-radius:20px;
+        box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+        transition:0.3s;
+      }
+      button:focus{
+        outline:0;
+      }
+      button:hover{
+        background:rgba(0,79,255,0.9);
+        cursor:pointer;
+        box-shadow: 0.2px 4px rgba(0,79,255,0.6);
+      }
+    </style>
+    <button type="button" onclick="location.href='main.html'">메인으로</button>
+  </h1>
+</body>
+</html>
